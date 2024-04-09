@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+ul{
+    list-style: none;
+}
+.items-recipe ul{
+    display: flex;
+    gap: 28px;
+}
+header h2 span{
+    color: #f05d18;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    color: #f05d18;
+}
+.homepage{
+    background-image: url(https://th.bing.com/th/id/R.af0638e584f55521e240c49b3d59501e?rik=bmYCV%2bdfrJ4H8w&pid=ImgRaw&r=0);
+    height: 90vh;
+    background-position: centre;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    gap: 20px;
+    padding-left: 20px;
+}
+.homepage h1{
+    font-size: 50px;
+}
+.homepage p{
+    width: 21%;
+    font-size: 16px;
+}
+.homebutton button{
+    padding: 6px 16px;
+}
+.homebutton .order1{
+    border: none;
+    outline: none;
+    background-color: #f05d18;
+    color: white;
+}
+.homebutton .order1:hover{
+    background: white;
+    color: #f05d18;
+}
+.homebutton .order2:hover{
+    background-color: none;
+    border-color: white;
+    color: white;
+}
+.About{
+    display: flex;
+    margin: 100px;
+    gap: 10%;
+}
+.about-p{
+    padding: 2%;
+}
+.about-p button{
+    padding: 2%;
+    background-color: #f05d18;
+    border-style: none;
+}
+.card-container{
+    display: flex;
+}
+#header{
+    padding: 6%;
+    text-align: center;
+}
+#par{
+    text-align: center;
+    padding: 2%;
+}
+.card-content1{
+    background-color: #f05d18;
+    margin: 2%;
+    padding: 20%;
+    border-radius: 10px;
+}
+.card-content2{
+    background-color: gainsboro;
+    margin: 2%;
+    padding: 20%;
+    border-radius: 10px;
+}
+.card-content3{
+    background-color: gainsboro;
+    padding: 20%;
+    margin: 2%;
+    border-radius: 10px;
+}
+ .card .img{
+    padding: 5%;
+    justify-content: center;
+    
+}
+.container-menu{
+    display: flex;
+    gap: 3rem;
+}
+
+
+button{
+    background-color: #f05d18;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 20px;
+}
+.one{
+    font-weight: bold;
+}
+.Menu .h2{
+    text-align: center;
+}
+.combined{ 
+    display: flex;
+    
+}
+.rev1{
+    margin: 7%;
+    background-color: black;
+    color: white;
+}
+rev2{
+    margin: 7%;
+    background-color: black;
+    color: white;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: black;
+    color: aliceblue;
+    padding: 4rem;
+}
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+}
+.foot{
+    display: flex;
+    
+}
+.icons{
+    flex-direction: row-reverse;
+
+}
+#nice a{
+    color: #f05d18;
+
+}
+.card-menu{
+    background-color: lightgray;
+    
+    box-shadow: 2px 2px 2px 1px;
+    border-color: aliceblue;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 2rem;
+}
+#iconsfooter a{
+    color: white;
+    
+}
+
+.foot1{
+    display: flex;
+    gap: 8rem;
+}
+
+#britty{
+    position: absolute;
+    bottom: 70px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: aliceblue;
+
+    
+}
+.rev-comment h3{
+    font-size: x-large;
+    
+    
+}
+.overall{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 90vw;
+    background-color: #f05d18;
+    margin: 5rem 5rem;
+    height: 50vh;
+}
+
+.review-image {
+    position: absolute;
+    top: -60px;
+    left: -40px;
+}
+
+.rev-comment{
+    padding: 12%;
+    border-radius: 1rem;
+    /* color: antiquewhite; */
+    /* z-index: -4; */
+}
+
+.rev-comment > * {
+    position: absolute;
+    right: 0px;
+}
